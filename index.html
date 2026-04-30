@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        :root {
-            --neon-blue: #00f2ff;
-            --deep-black: #050505;
-            --slate-gray: #1a1a1a;
-            --silver: #e0e0e0;
-            --glass-bg: rgba(255, 255, 255, 0.05);
-        }
-
+       :root {
+    --metal-silver: #c0c0c0; /* Prata base */
+    --bright-silver: #e0e0e0; /* Prata brilhante para destaques */
+    --deep-black: #050505;
+    --slate-gray: #1a1a1a;
+    --border-silver: rgba(192, 192, 192, 0.2);
+    --glow-silver: rgba(255, 255, 255, 0.2);
+}
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
@@ -107,7 +107,7 @@
         /* Cores específicas no hover */
         .angry:hover i { color: #ff4d4d; text-shadow: 0 0 15px #ff4d4d; }
         .neutral:hover i { color: #ffd900; text-shadow: 0 0 15px #ffd900; }
-        .happy:hover i { color: var(--neon-blue); text-shadow: 0 0 15px var(--neon-blue); }
+        .happy:hover i { color: green; text-shadow: 0 0 15px green; }
 
         .emoji-btn.active {
             filter: grayscale(0%);
